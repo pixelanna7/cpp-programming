@@ -102,8 +102,8 @@ int main(){
     }
 
     //(a) youngest and eldest
-    cout<<"\nYoungest person age: "<<Person::findYoungest(p,SIZE)<<endl;
-    cout<<"Eldest person age: "<<Person::findEldest(p,SIZE)<<endl;
+    cout<<"\nYoungest person's age: "<<Person::findYoungest(p,SIZE)<<endl;
+    cout<<"Eldest person's age: "<<Person::findEldest(p,SIZE)<<endl;
 
     //(b)Salary slip
     for(int i=0;i<SIZE;i++)
