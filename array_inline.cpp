@@ -30,7 +30,7 @@ public:
         cin.ignore(); // To ignore the newline character left by cin>>
         cout<<"Enter address: ";
         cin.getline(address, 64);
-        cout<<"Enter basic salary: ";
+        cout<<"Enter basic salary:Rs. ";
         cin>> basic;
 
         calculateSalary(); // Calculate salary components after getting basic salary
