@@ -83,11 +83,11 @@ public:
         cout<<"Address: "<<address<<endl;
         cout<<"--------------------------"<<endl;
         cout<<left<< setw(20)<<"EARNINGS "<<right<< setw(10)<<"AMOUNT"<<endl;
-        cout<<left<< setw(20)<<"Basic Salary: "<<right<< setw(10)<<basic<<endl;
-        cout<<left<< setw(20)<<"HRA: "<<right<< setw(10)<<hra<<endl;
-        cout<<left<< setw(20)<<"DA: "<<right<< setw(10)<<da<<endl;
-        cout<<left<< setw(20)<<"TA: "<<right<< setw(10)<<ta<<endl;
-        cout<<left<< setw(20)<<"GROSS SALARY: "<<right<< setw(10)<<grossSalary<<endl;
+        cout<<left<< setw(20)<<"Basic Salary: Rs."<<right<< setw(10)<<basic<<endl;
+        cout<<left<< setw(20)<<"HRA: Rs."<<right<< setw(10)<<hra<<endl;
+        cout<<left<< setw(20)<<"DA: Rs."<<right<< setw(10)<<da<<endl;
+        cout<<left<< setw(20)<<"TA: Rs."<<right<< setw(10)<<ta<<endl;
+        cout<<left<< setw(20)<<"GROSS SALARY: Rs."<<right<< setw(10)<<grossSalary<<endl;
         cout<<"--------------------------"<<endl;
     }
 };
@@ -102,7 +102,7 @@ int main(){
     }
 
     //(a) youngest and eldest
-    cout<<"Youngest person age: "<<Person::findYoungest(p,SIZE)<<endl;
+    cout<<"\nYoungest person age: "<<Person::findYoungest(p,SIZE)<<endl;
     cout<<"Eldest person age: "<<Person::findEldest(p,SIZE)<<endl;
 
     //(b)Salary slip
@@ -110,5 +110,4 @@ int main(){
         p[i].displaySalarySlip();
 
     return 0;
-
 }
